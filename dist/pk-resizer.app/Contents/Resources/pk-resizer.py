@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import os
+import sys
 import ConfigParser
 from easygui import *
 import PIL
@@ -13,80 +14,80 @@ from PIL import Image, ImageTk
 #	
 ###
 
-class sw_thumbs():
+class pk_resizer():
 
 	def aspect( self, size ):
-		# if you have width: aspect * image_width
-		# if you have height: image_width / aspect
 		return float( size[0] ) / float ( size[1] )
 
 	def start(self):
+		args = sys.argv[1:]
+		if len(args) > 0:
+			# filenames are in the arguments
+			filenames = args
+		else:
+			# ask for filenames
+			types = ("*.jpg", "*.jpeg", "*.png")
+			filenames = fileopenbox(
+				msg=None, 
+				title="Select Image(s)", 
+				default='*', 
+				filetypes=types, 
+				multiple=True
+			)
 
 		my_path = os.path.dirname(os.path.abspath(__file__))
 		config_file = os.path.join(my_path, "configuration.cfg")
 		config = ConfigParser.ConfigParser()
 		config.read(config_file)
 
-		# read settings from config
-		full_width 		 = int(config.get('SIZES', 'full_size_width'))
-		thumb_width 	 = int(config.get('SIZES', 'thumb_width'))
-
-		subfolder 		 = str(config.get('FOLDERS', 'subfolder'))
-		thumbs_subfolder = str(config.get('FOLDERS', 'thumbs_subfolder'))
-
-		jpg_quality_full = int(config.get('QUALITY', 'jpg_quality_full'))
-		jpg_quality_thumbs = int(config.get('QUALITY', 'jpg_quality_thumbs'))
-
-		types = ("*.jpg", "*.jpeg", "*.png")
-		filenames = fileopenbox(
-			msg=None, 
-			title="Select Image(s)", 
-			default='*', 
-			filetypes=types, 
-			multiple=True
-		)
-
+		# turn config into a dict with set of images
+		image_versions = {}
+		sections = config.sections()
+		for s in sections:
+			options = config.options(s)
+			my_options = {}
+			for o in options:
+				my_options[o] = config.get(s, o)
+			image_versions[s] = my_options
+			
 		# don't do anything if cancelled
 		for filename in filenames:
-			if filename == '' or filename == '.': 
-				return
-			
-			im = Image.open(filename)
-			my_aspect = self.aspect( im.size )
-			
-			# resizing based on width
-			thumb_new_size = ( thumb_width, int( thumb_width / my_aspect ) )
-			full_new_size = ( full_width, int( full_width / my_aspect ) )
+			if filename != '' and filename != '.': 
+				im = Image.open(filename)
+				my_aspect = self.aspect( im.size )
 
-			# file paths
-			root_dir = os.path.split(filename)[0]
-			new_filename = os.path.split(filename)[1]
-			no_ext = os.path.splitext(new_filename)[0]
-			new_filename = no_ext + ".jpg"
+				for t in image_versions:
+					x = image_versions[t]
+					# resize based on width or height?
+					if 'width' in x and 'height' in x:
+						# resize to width/height and ignore aspect ratio
+						new_size = ( int( x['width'] ), int( x['height']) )
+					elif 'width' in x:
+						# resize based on width
+						my_width = int( x['width'] )
+						new_size = ( my_width , int( my_width / my_aspect ) )
+					elif 'height' in x:
+						#resize based on height
+						my_height = int( x['height'] )
+						new_size = ( int( my_aspect * my_height ), my_height )
+					else:
+						new_size = im.size
+					subfolder = x['subfolder'] if 'subfolder' in x else 'resized'
+					quality = int( x['quality'] ) if 'quality' in x else 100
 
-			full_folder = os.path.join(root_dir, subfolder)
-			thumbs_folder = os.path.join(root_dir, thumbs_subfolder)
-			
-			# create directories if they don't exist
-			if not os.path.exists(full_folder):
-				os.makedirs(full_folder)
-			if not os.path.exists(thumbs_folder):
-				os.makedirs(thumbs_folder)
+					# file paths
+					root_dir = os.path.split(filename)[0]
+					new_filename = os.path.split(filename)[1]
+					no_ext = os.path.splitext(new_filename)[0]
+					new_filename = no_ext + ".jpg"
 
-			thumb_path = os.path.join(thumbs_folder, new_filename)
-			full_path = os.path.join(full_folder, new_filename)
+					new_folder = os.path.join(root_dir, subfolder)
+					if not os.path.exists( new_folder ):
+						os.makedirs( new_folder )
 
-			if (full_new_size[0] < im.size[0] or full_new_size[1] < im.size[1]):
-				image_full = im.resize( full_new_size, Image.ANTIALIAS )
-			else:
-				image_full = im
-				print ("Not necessary to resize, image is too small: " + str(im.size[0]) + " x " + str(im.size[1]))
-
-			image_full.save( full_path, 'JPEG', quality = jpg_quality_full )
-
-			image_thumb = im.resize( thumb_new_size, Image.ANTIALIAS )
-			image_thumb.save( thumb_path, 'JPEG', quality = jpg_quality_thumbs )
-		
+					new_path = os.path.join(new_folder, new_filename)
+					resized_image = im.resize( new_size, Image.ANTIALIAS )
+					resized_image.save( new_path, 'JPEG', quality = quality )
 
 if __name__ == '__main__':	
-	sw_thumbs().start()
+	pk_resizer().start()

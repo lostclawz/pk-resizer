@@ -1,0 +1,646 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"drag",
+				"dragoncrest-size-height"
+			],
+			[
+				"dragoncrest-si",
+				"dragoncrest-size-width"
+			],
+			[
+				"link",
+				"link_colorer"
+			],
+			[
+				"dragon",
+				"dragoncrest_width"
+			],
+			[
+				"absolute",
+				"absolutely"
+			],
+			[
+				"side-bar-files-open-",
+				"side-bar-files-open-with-chrome"
+			],
+			[
+				"html",
+				"htmlspecialchars〔function〕"
+			],
+			[
+				"contact",
+				"contact_email"
+			],
+			[
+				"anti",
+				"subpixel-antialiased"
+			],
+			[
+				"neon",
+				"neon_yellow"
+			],
+			[
+				"music",
+				"music_link_size"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"shadow",
+				"shadow_opacity"
+			],
+			[
+				"side",
+				"sidebar_size"
+			],
+			[
+				"color_link",
+				"color_link_hover_background"
+			],
+			[
+				"border-image-",
+				"border-image-right"
+			],
+			[
+				"page",
+				"page_wait_for_fade"
+			],
+			[
+				"ps-scroll",
+				"ps-scrollbar-y-rail"
+			],
+			[
+				"slides",
+				"slides_speed"
+			],
+			[
+				"reale",
+				"real_estate_definitions"
+			],
+			[
+				"we_",
+				"we_have_rentals"
+			],
+			[
+				"we",
+				"we_have_rentals"
+			],
+			[
+				"price",
+				"price_ranges_colors"
+			],
+			[
+				"colors",
+				"price_ranges_colors"
+			],
+			[
+				"default",
+				"default_alt_text"
+			],
+			[
+				"slide",
+				"exterior_slideshow"
+			],
+			[
+				"deb",
+				"debug_print"
+			],
+			[
+				"hex",
+				"hex2rgb"
+			],
+			[
+				"vis",
+				"visibility_class"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"url",
+				"urlencode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 334.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Add Channel"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"packac",
+				"Package Control: List Packages"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 132.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/philip/Dropbox/assets/Code/python/pk-resizer"
+	],
+	"file_history":
+	[
+		"/Users/philip/Dropbox/assets/Code/python/pk-resizer/configuration.cfg",
+		"/Users/philip/Dropbox/websites/petefrancis/readme.md",
+		"/Users/philip/Dropbox/assets/Code/libraries/css-lib/pk-css/_pk-lib.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/dragoncrest.php",
+		"/Users/philip/Dropbox/websites/petefrancis/sftp-config.json",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/petefrancis.js",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/petefrancis.php",
+		"/Users/philip/Dropbox/websites/petefrancis/css/_settings.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/css/_header.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/css/petefrancis.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/css/_dragoncrest-logo.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/css/_dragoncrest-page.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/live.php",
+		"/Users/philip/Dropbox/websites/petefrancis/css/petefrancis.css.map",
+		"/Users/philip/Dropbox/websites/petefrancis/css/petefrancis.css",
+		"/Users/philip/Dropbox/websites/petefrancis/contact.php",
+		"/Users/philip/Dropbox/websites/petefrancis/strap.php",
+		"/Users/philip/Dropbox/websites/petefrancis/media/images/gui/menu-icon.svg",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap-sass-3.3.4/assets/stylesheets/bootstrap/_dropdowns.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap-sass-3.3.4/assets/stylesheets/bootstrap/_variables.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap/less/dropdowns.less",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap-sass-3.3.4/README.md",
+		"/Users/philip/Dropbox/websites/petefrancis/config.rb",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap-dropdown.js",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap-sass-3.3.4/assets/stylesheets/_bootstrap.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap-sass-3.3.4/assets/stylesheets/bootstrap/mixins/_alerts.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap/dist/css/bootstrap.css",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap-sass-3.3.4/assets/stylesheets/bootstrap/mixins/_reset-filter.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap-sass-3.3.4/assets/stylesheets/bootstrap/mixins/_nav-divider.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/bio.php",
+		"/Users/philip/Dropbox/websites/petefrancis/main.php",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/bootstrap-sass-3.3.4/Rakefile",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/_mobile.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/_dragoncrest-page.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/petefrancis.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/dragoncrest.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/scripts/petefrancis.js",
+		"/Users/philip/Dropbox/websites/petefrancis/css/_pf-animations.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/content/shows.json",
+		"/Users/philip/Dropbox/websites/petefrancis/css/pf-header.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/css/pf-header.css",
+		"/Users/philip/Dropbox/websites/petefrancis/css/header2.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/css/header2.css",
+		"/Users/philip/Dropbox/websites/petefrancis/css/_page-live.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/_page-live.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/_pf-animations.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/shows.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/config.rb",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/about.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/music.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/main.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/video.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/template.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/live.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/_unused.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/bio.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/contact.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/sftp-config.json",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/_header.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/scripts/petefrancis.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/_splash.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/_pk-lib.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/settings.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/_settings.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/unused.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/petefrancis.css",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/dragoncrest-main.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/dragoncrest-logo.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/dragoncrest-pages.scss",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/dragoncrest-main-old.php",
+		"/Users/philip/Dropbox/websites/petefrancis/css/settings.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/css/dragoncrest-logo.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/music.php",
+		"/Users/philip/Dropbox/websites/petefrancis/backup/petefrancis-midchange.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/instafunctions.js",
+		"/Users/philip/Dropbox/websites/petefrancis/backup/petefrancis-with-carousel.js",
+		"/Users/philip/Dropbox/websites/petefrancis/content/albums.json",
+		"/Users/philip/Dropbox/websites/petefrancis/about.php",
+		"/Users/philip/Dropbox/websites/petefrancis/news-paul.php",
+		"/Users/philip/Dropbox/websites/petefrancis/insta.php",
+		"/Users/philip/Dropbox/websites/petefrancis/dragoncrest-main.php",
+		"/Users/philip/Dropbox/websites/petefrancis/video.php",
+		"/Users/philip/Dropbox/websites/petefrancis/shows.php",
+		"/Users/philip/Dropbox/websites/petefrancis/news-pete.php",
+		"/Users/philip/Dropbox/websites/petefrancis/news-philip.php",
+		"/Users/philip/Dropbox/websites/petefrancis/template.php",
+		"/Users/philip/Dropbox/websites/petefrancis/index.php",
+		"/Users/philip/Dropbox/websites/petefrancis/content/blog.json",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/deliver.php",
+		"/Users/philip/Dropbox/websites/petefrancis/dragontest5.html",
+		"/Users/philip/Dropbox/websites/petefrancis/dragontest4.html",
+		"/Users/philip/Dropbox/websites/petefrancis/dragontest3.html",
+		"/Users/philip/Dropbox/websites/petefrancis/dragontest3-this one does work.html",
+		"/Users/philip/Dropbox/websites/petefrancis/dragontest.html",
+		"/Users/philip/Dropbox/websites/petefrancis/media/images/gui/dragoncrest9.svg",
+		"/Users/philip/Dropbox/websites/petefrancis/main-test.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/media/images/gui/dragoncrest8.svg",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/media/images/gui/downarrow.svg",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/css/petefrancis.css.map",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/index.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/media/images/gui/dragoncrest7.svg",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/media/images/gui/dragoncrest6.svg",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/media/images/gui/dragoncrest4.svg",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/content/showdata_example.json",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/news-paul.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/readme.md",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/content/shows.json",
+		"/Users/philip/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/philip/Dropbox/websites/petefrancis/dragoncrest-test.html",
+		"/Users/philip/Dropbox/websites/petefrancis/media/images/gui/dragoncrest3-inv2.svg",
+		"/Users/philip/Dropbox/websites/petefrancis/media/images/gui/dragoncrest-merged2.svg",
+		"/Users/philip/Dropbox/websites/petefrancis/news.php",
+		"/Users/philip/Dropbox/websites/petefrancis/music2.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/news.php",
+		"/Users/philip/Dropbox/websites/petefrancis/css/petefrancis-backup.scss",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/mediaelement/mediaelement.js",
+		"/Users/philip/Dropbox/websites/petefrancis/scripts/lib/jplayer/add-on/jplayer.playlist.min.js",
+		"/Users/philip/Dropbox/websites/petefrancis/main-noinstagram.php",
+		"/Users/philip/Dropbox/websites/petefrancis/main2.php",
+		"/Users/philip/Dropbox/websites/petefrancis/community.php",
+		"/Users/philip/Dropbox/websites/petefrancis/media/images/gui/firegif.gif",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/media/images/logos/dragoncrest.png",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/index3.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/index2.php",
+		"/Volumes/Desktop Master/Dropbox/Websites/petefrancis/tour.php",
+		"/Users/philip/Dropbox/websites/petefrancis/index-old.html",
+		"/Users/philip/Dropbox/websites/petefrancis/tour.php",
+		"/Users/philip/Dropbox/websites/petefrancis/videos.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<project>",
+			"/Volumes/Desktop Master/Dropbox/Websites/petefrancis",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font-weight",
+			"shadow_set",
+			"my_color",
+			"total_shadows",
+			"blur_increment",
+			"opacity_divisor",
+			"pf_max_opacity",
+			"font",
+			"drag",
+			"link-",
+			"$dropdown-link-hover-color:      darken($gray-dark, 5%) !default;\n",
+			"50",
+			"li{",
+			".dropdown-menu",
+			"center",
+			"nav-screen",
+			"header",
+			"button",
+			"body",
+			"body{",
+			"100%",
+			".dragoncrest",
+			"#f",
+			"dragoncrest",
+			"hover",
+			"rgba(0",
+			"translateZ",
+			"iframe",
+			"scroll_pixels_per_second",
+			"scroll",
+			"month_names",
+			"preload_images",
+			"get_trans_speed",
+			"neon",
+			"link-colorz",
+			"link-colo",
+			"title-colorer",
+			"color_text",
+			"pf_colors",
+			"sitenav_col",
+			"color_ne",
+			"easing",
+			"speed",
+			"zippy",
+			"fadespeed",
+			"link_under",
+			"$text",
+			"nav_link",
+			"font_splash",
+			"font-weight",
+			"body{",
+			"a{",
+			"nav0",
+			"$font",
+			"ubuntu",
+			"h1{",
+			"font_h1",
+			"site-title",
+			"font-weight",
+			"about",
+			".page-title",
+			"page",
+			"video_page",
+			"page",
+			"videonav",
+			"page_video",
+			"videos",
+			"page_video",
+			"page_content",
+			"page_title",
+			"bordergray",
+			"page_title",
+			"title",
+			"class=\"title",
+			"colors",
+			"link-colors",
+			"crest",
+			"import ",
+			"import",
+			"centralize",
+			"eas",
+			"a{",
+			"link_colorer",
+			"link-colors",
+			"link_colorer",
+			".on",
+			"reflect",
+			"&:hover",
+			"white",
+			"400px",
+			"600px",
+			"link_colorer",
+			"animation",
+			"color: rgba(",
+			"drag",
+			"dragoncrest-main",
+			".dragoncrest",
+			"main",
+			"animation",
+			"contact",
+			"var_dump",
+			"parse_show",
+			"#grid",
+			"dates",
+			"p{",
+			"h1{",
+			"background:",
+			"@include animation",
+			"padding",
+			"200px",
+			".dragoncrest-logo",
+			"background",
+			"background-image",
+			"background-color",
+			"get_site_nav",
+			"nth-child",
+			"link_color",
+			"$blur_increment",
+			"link_colorer",
+			"hover",
+			"nav{",
+			".site_nav",
+			"a{",
+			" + 1",
+			"title_colorer",
+			"animation",
+			"title-colorer",
+			"a{"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"title=\"#caption\" data-caption=",
+			"data-caption=",
+			"\"/>",
+			"alt=\"",
+			"jpg\"",
+			"src= \"",
+			"src= ",
+			"jpg' ",
+			" ",
+			"alt=",
+			"<img src",
+			">",
+			"",
+			"review",
+			"title=\"Photo #",
+			"alt=\"\" title=\"",
+			"title=",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 106.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 148.0
+	},
+	"pinned_build_system": "",
+	"project": "pk-resizer.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/websites/balloonsforeveryone/balloonsforeveryone.sublime-project"
+			],
+			[
+				"slags",
+				"~/Dropbox/websites/Slags Website/slags.sublime-workspace"
+			],
+			[
+				"sinclairs",
+				"~/Dropbox/websites/sinclairs/sinclairs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

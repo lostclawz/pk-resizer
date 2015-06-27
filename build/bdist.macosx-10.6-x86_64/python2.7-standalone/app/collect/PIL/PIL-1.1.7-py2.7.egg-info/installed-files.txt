@@ -159,8 +159,6 @@
 ../XpmImagePlugin.pyc
 ../XVThumbImagePlugin.pyc
 ../_imaging.so
-../_imagingft.so
-../_imagingcms.so
 ../_imagingtk.so
 ../_imagingmath.so
 ./
@@ -168,9 +166,9 @@ dependency_links.txt
 PKG-INFO
 SOURCES.txt
 top_level.txt
-../../../../../../usr/local/bin/pilconvert.py
-../../../../../../usr/local/bin/pildriver.py
-../../../../../../usr/local/bin/pilfile.py
-../../../../../../usr/local/bin/pilfont.py
-../../../../../../usr/local/bin/pilprint.py
+../../../../../bin/pilconvert.py
+../../../../../bin/pildriver.py
+../../../../../bin/pilfile.py
+../../../../../bin/pilfont.py
+../../../../../bin/pilprint.py
 ../../PIL.pth

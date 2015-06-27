@@ -1,6 +1,4 @@
 
-_imagingtk
-_imagingft
 _imagingmath
+_imagingtk
 _imaging
-_imagingcms
