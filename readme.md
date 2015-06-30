@@ -1,7 +1,13 @@
 ## pk-resizer ##
 by Philip Kuperberg
 
-Configurable image resizing utility 
+Configurable image resizing utility.
+
+# 2015-06-30
+	*	Creates a new thread for each image to resize.
+	*	Added lowercase option to config file
+
+
 
 # configuration.cfg:
 
@@ -13,9 +19,10 @@ Configurable image resizing utility
 	height: 		scale image by height (maintain aspect ratio)
 	(note- if BOTH width and height are specified, image will stretch)
 	subfolder: 		the subfolder to place the images (relative to original directory)
+	lowercase: 		force the filename lowercase when resizing
 
 
-Steps for distribution...
+# Distribution:
 
 	Build setup.py file:
 		py2applet --make-setup sw-resizer.py
